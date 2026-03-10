@@ -82,5 +82,7 @@ public class Main {
         //se devuelve el libro 3
         book3.returnBook();
         System.out.println("Siguiente en espera: "+ book3.atenderSiguienteSolicitud());//deberia atender a Usuario_C
+
+        System.out.println("cantidad de veces que " + book1.getTitle() + " fue prestado: " + book1.getTimesLoaned());
     }
 }

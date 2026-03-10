@@ -1,6 +1,3 @@
-/**
- * Implementación simple de una Lista Doblemente Enlazada
- */
 public class LinkedList <T>{
     Node<T> head;
     int size;
